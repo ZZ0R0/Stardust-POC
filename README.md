@@ -1,6 +1,6 @@
 # Stardust
 
-An POC to try features of Stardust framework mwhich makes it easier to code PIC code from C and compiling to shellcode
+An POC to try features of Stardust framework which makes it easier to code PIC code from C and compiling to shellcode
 
 I've implemented a resolver that will setup the STARDUST_INSTANCE to load all functions from external libraries 
 
@@ -48,7 +48,7 @@ FUNC VOID Import()
 }
 ```
 
-Once the functions are loaded inside the instance we can then call them inside the relevant file using the instance identifier
+Once the functions are resolved inside the instance we can then call them inside the relevant file using the instance identifier
 
 ```cpp
 #include "aes.h"
