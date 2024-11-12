@@ -1,4 +1,4 @@
-# Stardust
+# Stardust-POC
 
 An POC to try features of Stardust framework which makes it easier to code PIC code from C and compiling to shellcode
 
@@ -116,7 +116,7 @@ FUNC std::string decryptMessage(const std::string &encryptedMessage, const unsig
 
 I'm missing from now most of the logic of the framework
 
-for example I do'nt know how to load external libs types into the instance like "AES_KEY" for example
+For example I don't know how to load external libs types into the instance like "AES_KEY" for example
 
 I'm also not sure if I can call my project's function without passing through the instance
 
